@@ -1,0 +1,20 @@
+1. Package installation
+--> pip install -r requirements.txt 
+
+2. anaconda env
+conda create -n zoomcamp python=3.9  --> creating a conda env with the name 'zoomcamp' with a python version of 3.9
+conda activate zoomcamp
+conda deactivate
+
+3. prefect orion start
+start prefect UI & track changes made 
+
+4. Prefect buckets
+- prefect block register -m prefect_gcp (-m as module)
+- start orion UI and navigate to GCS Bucket > Create
+- (block name: [ANY NAME], Bucket: [REFER TO GCP GCS bucket name])
+- (Credentials >> block name: [ANY NAME], Service Account Info: [SA JSON KEY FROM GCS]
+>> CREATE
+
+
+
